@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Hec's Blog</title>
+  <description>Updates from Hec</description>
+  <language>en-us</language>
+  <link>https://heccraft.com/rss.xml</link>
+
+<item>
+<title>Personal updates on a bunch of things</title>
+<guid>https://heccraft.com/blogs/arch-youtube.html</guid>
+<link>https://heccraft.com/blogs/arch-youtube.html</link>
+<pubDate>Friday, 21 May 2021 16:21:47 -0400</pubDate>
+<description><![CDATA[
+<p>A lot of things have happened since the last blog, so I wanted to write about some of those things.</p>
+<h2 id="my-personal-arch-linux-repository">My personal arch linux repository</h2>
+<p>I have created an <a href="https://archlinux.org">Arch Linux</a> repository <a href="https://github.com/hecknt/hec-arch-repository">here</a>. This will contain personal things that I have created or forked, such as my <a href="https://github.com/hecknt/dmenu">dmenu build</a>.<br />
+I have also made a repository specifically for <a href="https://artixlinux.org">Artix Linux</a> packages <a href="https://github.com/hecknt/hec-artix-repository">here</a>, and I have put up a package both on there and on the <a href="https://aur.archlinux.org">aur</a> for users who are using runit. This package is on the aur <a href="https://aur.archlinux.org/packages/cryptsetup-void-runit">here</a>, and it’s useful for those who use encrypted swap with cryptsetup, since by default the way that /etc/crypttab is handled doesnt allow for encrypted swap to be created on boot. The manpage of crypttab has the swap option literally included in there, along with many other options that arent implemented in artix’s runit crypttab.</p>
+<p><img src="/img/crypttab-swap.png" title="Artix didn&#39;t put the swap option into their crypttab but its in the man page" /></p>
+<p>All of the packages in these repositories are also available in the <a href="https://aur.archlinux.org">aur</a>, so if you don’t feel like adding a third-party repository to your pacman.conf, you can just install them from there.</p>
+<h2 id="youtube-and-odysee">Youtube and Odysee</h2>
+<p>I now have both a <a href="https://www.youtube.com/channel/UCHH2OoVtwT6yogEbhzh7d2Q">YouTube</a> and an <a href="https://odysee.com/$/invite/@Hec_:6">Odysee</a> channel. These channels will be talking about personal projects I’ve been working on, pieces of software, guides, and probably some video games.</p>
+<h2 id="status-on-arch-install">Status on arch-install</h2>
+<p>arch-install isn’t actually going to be finished or released. I have decided that it just isn’t worth it to make <em>yet another arch linux install script</em>. There are <strong>so many</strong> arch install scripts out there, with many of them being more polished <strong>and</strong> modular than my install script ever could’ve been.</p>
+]]></description>
+</item>
+
+  <item>
+    <title>RSS Feed, and arch-install</title>
+    <guid>https://heccraft.com/blogs/rss.html</guid>
+    <link>https://heccraft.com/blogs/rss.html</link>
+    <pubDate>Saturday, 1 May 2021 20:56:00 -0400</pubDate>
+    <description><![CDATA[
+      <p>There is now an RSS feed for my blogs.<br />
+      If you want to get my blog on your RSS reader, you can simply put <a href="https://heccraft.com/rss.xml">https://heccraft.com/rss.xml</a> into your RSS reader and all of my blog posts will be put onto there.</p>
+      <p>I’m also creating a shell script for installing arch and artix linux. It’s not complete yet, however when it is complete, you’ll see it on my github page. All it does is install a bunch of packages. It wont clone any dotfiles, but I am considering uploading my dotfiles over to github with an installation script for them.</p>
+    ]]></description>
+  </item>
+  <item>
+    <title>My new website</title>
+    <guid>https://heccraft.com/blogs/my-new-website.html</guid>
+    <link>https://heccraft.com/blogs/my-new-website.html</link>
+    <pubDate>Friday, 30 April 2021 22:59:53 -0400</pubDate>
+    <description><![CDATA[
+    This is just a test blog to make sure that everything is up and running.<br />
+    On this vps, I have done multiple things:
+    <ul>
+    <li>
+    Set up a website using <a href="https://github.com/fmash16/ssg5">ssg5</a>
+    </li>
+    <li>
+    Set up an email server using <a href="https://github.com/LukeSmithxyz/emailwiz">Luke Smith’s emailwiz</a>
+    </li>
+    </ul>
+    <p>This means that I now have a public email. My public email is <a href="mailto:hec@heccraft.com">hec@heccraft.com</a>. <strong>Do not</strong> try to fill my email with spam.<br />
+    I’m thinking that in the future I may open up a patreon or something similar, although right now I don’t really have anything going for me, so this isnt happening at the moment.</p>
+    ]]></description>
+  </item>
+</channel>
+</rss>
