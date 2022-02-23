@@ -1,0 +1,6 @@
+BLOG_TITLE:=Hec's Craft
+BLOG_REMOTE:=/var/www/main-site
+BLOG_DATE_FORMAT_INDEX:=%F
+BLOG_DATE_FORMAT:=%F
+BLOG_SRC:=src
+BLOG_URL_ROOT:=https://heccraft.com/

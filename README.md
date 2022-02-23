@@ -5,13 +5,19 @@ This is the repository for my website hosted over at https://heccraft.com
 
 ### Build Requirements
 In order to build this site you need the following:
-* [pandoc](https://github.com/jgm/pandoc)
-* [ssg5](https://github.com/fmash16/ssg5)
+* [Discount](https://www.pell.portland.or.us/~orc/Code/discount/)
+* [GNU Make](https://www.gnu.org/software/make/)
+* [GNU Core Utils](https://www.gnu.org/software/coreutils/)
 
 ### Build Instructions
-Run the following commands inside the repository folder to build the site:
+First things first, you're gonna need to edit the `config` file inside of this repository. You will need to change the line that says `BLOG_REMOTE:=/var/www/main-site` to whatever directory you want the finished site to be in.
+
+Run the following command inside the repository folder to build the site:
 ```sh
-$ mkdir dst
-$ ssg5 src dst "Hec's Website" "https://heccraft.com"
+$ make build
 ```
-You will then have the site inside of the `dst` folder.
+
+and the following command to deploy the site into the BLOG_REMOTE folder:
+```sh
+$ make deploy
+```
