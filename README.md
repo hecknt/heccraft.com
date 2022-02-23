@@ -5,7 +5,7 @@ This is the repository for my website hosted over at https://heccraft.com
 
 ### Build Requirements
 In order to build this site you need the following:
-* [Discount](https://www.pell.portland.or.us/~orc/Code/discount/)
+* [Pandoc](https://pandoc.org/)
 * [GNU Make](https://www.gnu.org/software/make/)
 * [GNU Core Utils](https://www.gnu.org/software/coreutils/)
 
