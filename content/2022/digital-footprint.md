@@ -1,3 +1,9 @@
+---
+title: How your name can get you screwed over
+date: 2022-05-18
+author: Hec
+---
+
 # How your name can get you screwed over
 Recently, I had an experience where someone looked at my minecraft account to find this blog and eventually send me an email to confirm if I was the person they were looking for, and that gave me the idea to write this blog.
 
@@ -12,7 +18,3 @@ If you think that someone from your past could look through your online history 
 
 ## Obligitory Outro
 What happened to me isn't a big enough deal for me to care. The fact that my minecraft account is linked to my blog isn't a big deal, since my minecraft account isn't linked to me personally anyways. It's just as much an online account as my blog is. I just thought it would be cool to make a blog about this.
-
-;date-posted: Mar 18th, 2022
-;date-modified: Mar 18th, 2022
-;date-posted-rss: Friday, 18 Mar 2022 19:07:01 -0400

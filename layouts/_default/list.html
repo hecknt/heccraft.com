@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+<h1>Archives | {{ .Title }}</h1>
+<article>
+{{ .Content }}
+{{ range.Pages }}
+    <p><a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+    <sub><sup>{{ .PublishDate.Format "Jan 02 2006" }}, edited {{.Date.Format "Jan 2, 2006"}}</sub></sup></p>
+{{ end }}
+</article>
+{{ partial "footer.html" . }}

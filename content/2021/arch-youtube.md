@@ -1,3 +1,10 @@
+---
+title: Personal updates on a bunch of things
+date: 2021-05-21
+lastmod: 2022-07-09
+author: Hec
+---
+
 # Personal updates on a bunch of things
 
 A lot of things have happened since the last blog, so I wanted to write about some of those things.
@@ -14,11 +21,3 @@ All of the packages in these repositories are also available in the [aur](https:
 ## Youtube and Odysee
 
 I now have both a [YouTube](https://www.youtube.com/channel/UC1KoQ6A0yq7NMFwQf1qMobQ) and an [Odysee](https://odysee.com/$/invite/@Hec_:6) channel. These channels will be talking about personal projects I've been working on, pieces of software, guides, and probably some video games.
-
-## Status on arch-install
-
-arch-install isn't actually going to be finished or released. I have decided that it just isn't worth it to make _yet another arch linux install script_. There are **so many** arch install scripts out there, with many of them being more polished **and** modular than my install script ever could've been.
-
-;date-posted: May 21st, 2021
-;date-modified: September 24th, 2021
-;date-posted-rss: Saturday, 25 September 2021 03:19:50 +0000

@@ -12,8 +12,14 @@ body {
 header {
     font-size: 2.2em;
 }
+
 nav {
     font-size: 1.75em;
+}
+
+.nav img {
+    width: 40px;
+    height: auto;
 }
 
 @media screen and (max-width:419px){
@@ -81,6 +87,8 @@ a:active {
 nav a li:hover {
     color:black;
 }
+
+.container 
 
 code {
   display: block;

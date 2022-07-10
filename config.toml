@@ -1,0 +1,10 @@
+title = "Hec's Craft"
+baseURL = 'https://heccraft.com'
+languageCode = 'en-us'
+theme = 'hec-theme'
+
+[params]
+  favicon = "/favicon.ico"
+  stylesheet = "/style.css"
+  indexarticles = 50
+  showrss = true

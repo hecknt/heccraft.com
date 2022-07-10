@@ -1,0 +1,6 @@
+<h2>Blog<a href="./index.xml"><img src="/img/rss.png" alt="rss logo" align="right"></a></h2>
+{{ $number := 0 -}}
+{{- range.Site.RegularPages -}}
+{{- $number = add $number 1 -}}
+<p>{{ if gt $number .Site.Params.indexarticles }}class="older-article"{{ end }}<a href="{{.Permalink}}">{{.Title}}</a><br><sub><sup>{{.Date.Format "Jan 2, 2006"}}, edited {{.Lastmod.Format "Jan 2, 2006"}}</sup></sub></p>
+{{ end -}}

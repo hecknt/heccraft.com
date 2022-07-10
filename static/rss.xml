@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Hec's Craft</title>
+<link>https://heccraft.com/</link>
+<description>blog</description>
+<item>
+<title>New RSS Link</title>
+<link>https://heccraft.com/important.html</link>
+<guid>https://heccraft.com/important.html</guid>
+<pubDate>Saturday, 09 Jul 2022 21:07:20 -0400</pubDate>
+<description><![CDATA[<h1 id="new-rss-link">New RSS Link</h1>
+<p>The RSS link has changed to <a
+href="https://heccraft.com/index.xml">https://heccraft.com/index.xml</a>.
+This is will be a blog post for this RSS link only. I’ll leave this link
+here as an easter egg to see if anyone ends up finding this.</p>]]></description>
+</item>
+</channel>
+</rss>

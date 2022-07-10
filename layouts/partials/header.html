@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+<head>
+	<meta charset="utf-8">
+	<link rel="canonical" href="{{ .Site.BaseURL }}">
+	<link rel='alternate' type='application/rss+xml' title="{{ .Site.Title }} RSS" href='/index.xml'>
+	{{ with .Site.Params.stylesheet }}<link rel='stylesheet' type='text/css' href='{{ . }}'>
+	{{ end -}}
+	{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . }}">
+	{{ end -}}
+	<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
+	<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+    <title>{{ .Site.Title }}</title>
+</head>
+<header>
+    <ul>
+        <li>
+            <div class="nav">
+              <a href="/">
+                <img class="logo" src="/favicon.ico" alt="">
+                {{ .Site.Title }}
+            </div>
+        </li>
+    </ul>
+</header>
+<nav>
+    <ul>
+        <li>
+             <a class="nav-button" href="/index.xml">rss</a>
+        </li><li>
+             <a class="nav-button" href="https://www.youtube.com/channel/UC1KoQ6A0yq7NMFwQf1qMobQ">youtube</a>
+        </li><li>
+             <a class="nav-button" href="mailto:hec@heccraft.com">contact</a>
+        </li><li>
+             <a class="nav-button" href="https://odysee.com/$/invite/@Hec_:6">odysee</a>
+        </li><li>
+             <a class="nav-button" href="https://github.com/hecknt">github</a>
+        </li>
+    </ul>
+</nav>
+
+<article>
