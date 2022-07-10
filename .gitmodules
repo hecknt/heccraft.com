@@ -1,0 +1,3 @@
+[submodule "themes/hec-theme"]
+	path = themes/hec-theme
+	url = https://github.com/hecknt/hugo-theme
