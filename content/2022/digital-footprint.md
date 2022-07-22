@@ -9,7 +9,7 @@ Recently, I had an experience where someone looked at my minecraft account to fi
 
 A person who I'm going to refer to as Joseph emailed me the other day, stating that they wanted to hunt me down a few years back and finally got around to doing it recently. He looked at the name history of my minecraft account to find a discord account, which was a dead end since my dms are off. He then looked further to find my blog, which contained my email address.
 
-![](./img/minecraft-email.png "A part of the email in question")
+![](/img/minecraft-email.png "A part of the email in question")
 
 This gave me the idea to write this blog, and it got me thinking. If any incriminating personal information was linked to the name, then this probably wouldnt've have been a happy ending. Fortunately, I don't link any incriminating information to my online name, and I also really doubt that this guy was trying to screw me over in any way.
 
